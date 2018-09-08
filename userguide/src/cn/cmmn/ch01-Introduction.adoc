@@ -1,0 +1,48 @@
+
+== 介绍
+
+[[license]]
+
+=== 许可证
+
+Flowable在 link:$$http://www.apache.org/licenses/LICENSE-2.0.html$$[Apache V2 license]许可下发布。
+
+[[download]]
+
+=== 下载
+
+link:$$http://www.flowable.org/downloads.html$$[http://www.flowable.org/downloads.html]
+
+[[sources]]
+
+=== 源码
+
+该发行版包含大多jar包源文件。Flowable的源码可以在此下载 link:$$https://github.com/flowable/flowable-engine$$[https://github.com/flowable/flowable-engine]
+
+[[experimental]]
+
+=== 实验发布
+
+这是包含CMMN引擎的Flowable的第一个版本，目前标记为实验版本。
+与其他引擎中的实验性功能类似，这意味着在向后兼容性（packages, classes, data）方面没有给出稳定性保证，因为我们希望在使API完全完善之前，使用此版本来收集来自社区的反馈。但是，如果进行任何变更，将来的发行说明将详细描述。
+在下个发布版本中，我们会增强和拓展对CMMN 1.1的支持，并继续添加更多功能。
+
+[[required.software]]
+
+=== 环境要求
+
+Flowable 运行要求JDK8或更高版本. 跳转到 link:$$http://www.oracle.com/technetwork/java/javase/downloads/index.html$$[Oracle Java SE downloads] 点击 "Download JDK"按钮下载。该页面上也有安装说明。命令提示符运行 +java -version+ 并打印出jdk版本号以验证安装成功。
+
+
+[[reporting.problems]]
+
+=== 报告问题
+
+
+Questions and comments can be discussed on the on link:$$https://forum.flowable.org$$[the Flowable forum]. Issues can be created in link:$$https://github.com/flowable/flowable-engine/issues$$[our Github issue tracker].
+
+[[internal]]
+
+=== 内部实现类
+
+在JAR文件中，包含 +.impl.+ 的包中的所有类都是实现类，被视为内部类。目前不保证实现类中的类或接口是稳定的。
